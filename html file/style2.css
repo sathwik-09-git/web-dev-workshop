@@ -1,0 +1,84 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color:yellow;
+    color: yellow;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+img {
+    border-radius: 50%;
+    border:  green;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.highlight {
+    color: yellow
+;
+}
+
+.skill-list, ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-list li {
+    display: flex;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+th {
+    background: rgb(208, 255, 0);
+    color: white;
+}
+
+.project-item {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background: white;
+    border-radius: 5px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, blue, blue);
+}
+
+.center p {
+    margin-top: 30px;
+}
+</style>
